@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    height: 100vh;
+    background-color: rgb(96, 226, 96);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 2vw;
+    background-color: #5fc764;
+}
+
+nav{
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+}
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 2px 12px;
+    text-decoration: none;
+    font-style: bold , italic ;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 120%;
+
+}
+ nav a:hover{
+    background-color:rgb(4, 95, 4);
+    border-radius: 5px;
+
+ }
+nav img{
+    width: 120px;
+}
+main{
+    margin: auto;
+    text-align: center;
+    height: 80vh;
+    position: relative;
+}
+.centered-content{
+    position: absolute;
+    text-align: center;
+    margin-top: 15vh;
+    margin-left: 25vw;
+}
+.main-img{
+    width: 100vh ;
+    text-align: center;
+}
+.searching-bar{
+    border-radius: 50px;
+    height: 4%;
+    position: relative;
+    text-align: left;
+    background-color: rgb(27, 177, 27);
+    margin-top: 3vh;
+
+}
+.searching-bar button{
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+button i{
+    font-size: 20%;
+}
+.search{
+    position: absolute;
+    
+}
+.search:hover{
+    background-color:rgb(4, 95, 4);
+}
+.search-input{
+    border-radius: 45px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    width: 45vw;
+    padding: 8px;
+    margin-left: 30px;
+    font-size: medium;
+}
+.search-input:hover{
+    background-color: rgb(4, 95, 4) ;
+}
+.Filter{
+    
+    border: none;
+    background-color: transparent;
+    margin-left: 625px;
+}
+.Filter:hover{
+    background-color: rgb(4, 95, 4) ;
+}
+.Welcoming h1{
+    text-align: center;
+    margin-top: 12vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    color: aliceblue;
+}
+.Welcoming p{
+    text-align: center;
+    margin-top: 5vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    color: aliceblue;
+}
+.products .first{
+    margin-left: 1vw;
+    position: absolute;
+    margin-top: 70vh;
+}
+.table1{
+    background-color: green;
+    border-color: #5fc764;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+.table1 td{
+    border: 5px solid rgb(54, 218, 54);
+    text-align: left;
+}
+.table1 .img{
+    width: 23vw;
+    margin: 0.5vw;
+
+}
+.table1 .name{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(96, 226, 96);
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+.table1 .name:hover{
+    background-color:rgb(4, 95, 4);
+}
+.table1 .price{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(96, 226, 96);
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+.table1 .price:hover{
+    background-color:rgb(4, 95, 4);
+}
+.table1 .information{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(96, 226, 96);
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+.table1 .information:hover{
+    background-color:rgb(4, 95, 4);
+}
+.products .second{
+    margin-left: 1vw;
+    position: absolute;
+    margin-top: 120vh;
+}
+.table2{
+     background-color: green;
+    border-color: #5fc764;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+.table2 td{
+    border: 5px solid rgb(54, 218, 54);
+    text-align: left;
+}
+.table2 .image{
+    width: 23vw;
+    margin: 0.5vw;
+}
+.table2 .name2{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(96, 226, 96);
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+.table2 .name2:hover{
+    background-color:rgb(4, 95, 4);
+}
+.table2 .price2{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(96, 226, 96);
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+.table2 .price2:hover{
+    background-color:rgb(4, 95, 4);
+}
+.table2 .information2{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(96, 226, 96);
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+.table2 .information2:hover{
+    background-color:rgb(4, 95, 4);
+}
+footer{
+    position: absolute;
+    margin-top: 100vh;
+    align-items: center;
+    padding: 1vw 2vw;
+    background-color: #5fc764;
+    width: 98.8vw;
+}
+h2{
+    position: absolute;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.nav2{
+    align-items: left;
+    margin-top: 15px;
+}
+.nav2 .num{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+.nav2 .phone{
+    position: relative;
+    width: 3vw;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+.nav2 .phone img{
+    width: 3vw;
+}
+.nav2 .number {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 15vw;
+    background-color: transparent;
+    border: none;
+}
+.number p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.nav2 .em{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+.nav2 .email{
+    position: relative;
+    width: 3vw;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+.nav2 .email img{
+    width: 3vw;
+}
+.nav2 .emo {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 15vw;
+    background-color: transparent;
+    border: none;
+}
+.emo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}

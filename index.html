@@ -3,27 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Lesson</title>
-    <style>
-        body{
-            background-color: paleturquoise;
-            margin: 30px;
-        }
-        h1{
-            font-size: 50px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-style: italic;
-            margin-bottom: 20px;
-        }
-        p1{
-            font-size: 20px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-style: italic;
-        }
-    </style>
+    <title>Floralife</title>
+    <link  rel="Stylesheet"  href="style.css">
 </head>
 <body>
-    <h1>Hello Everyone!</h1>
-    <p1>It is me Maryam Hamrah.</p1>
+    <header>
+        <!--<div class="header-link">-->
+        <nav>
+        <img src="Floralife3.png" alt="Floralife">
+        <a href="#">Home</a>
+        <a href="#">Plants</a>
+        <a href="#">Flowers</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        </nav>
+        
+        <!--</div>-->
+    </header>
+    <main>
+        <div class="centered-content">
+            <img class="main-img" src="Floralife3.png" alt="Floralife">
+          <div class="searching-bar">
+            <button class="search"><i class="fa-solid fa-search"></i> <img src="search.png"  alt="Flowers" width="10px"></button>
+            <input class="search-input" type="text" placeholder="Search">
+            <button class="Filter"><i class="fa-solid fa-Filter"></i>Filter</button>
+          </div>
+          <section class="Welcoming">
+            <h1>Welcome to the World of Plants!</h1>
+            <p>Discover the most beautiful plants for your home and office.</p>
+          </section>
+        </div>
+        
+        <section class="products">
+            <div class="first">
+                <table class="table1">
+                    <tr>
+                     <td><img class="img" src="6.jpeg" alt="#" width="20%"></td>
+                     <td><img class="img" src="1.jpg" alt="#" width="20%"></td>
+                     <td><img class="img" src="4.jpg" alt="#" width="20%"></td>
+                     <td><img class="img" src="9.JPG" alt="#" width="20%"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="name">Name</button>
+                            <button class="price">price</button>
+                            <button class="information">Information</button>
+                        </td>
+                        <td>
+                            <button class="name">name</button>
+                            <button class="price">price</button>
+                            <button class="information">Information</button>
+                        </td>
+                        <td>
+                            <button class="name">name</button>
+                            <button class="price">price</button>
+                            <button class="information">Information</button>
+                        </td> 
+                        <td>
+                            <button class="name">name</button>
+                            <button class="price">price</button>
+                            <button class="information">Information</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="second">
+                <table class="table2">
+                    <tr>
+                        <td><img class="image" src="5.jpg" alt="#" width="20%"></td>
+                        <td><img class="image" src="2.jpg" alt="#" width="20%"></td>
+                        <td><img class="image" src="7.jpg" alt="#" width="20%"></td>
+                        <td><img class="image" src="8.jpg" alt="#" width="20%"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="name2">Name</button>
+                            <button class="price2">price</button>
+                            <button class="information2">Information</button>
+                        </td>
+                        <td>
+                            <button class="name2">name</button>
+                            <button class="price2">price</button>
+                            <button class="information2">Information</button>
+                        </td>
+                        <td>
+                            <button class="name2">name</button>
+                            <button class="price2">price</button>
+                            <button class="information2">Information</button>
+                        </td> 
+                        <td>
+                            <button class="name2">name</button>
+                            <button class="price2">price</button>
+                            <button class="information2">Information</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Contact us</h2>
+        <nav class="nav2">
+            <div class="num">
+                <button class="phone"><img src="phone.png" alt="#" width="10%"></button>
+                <button class="number"><p>+93 793 106 655</p></button>
+            </div>
+            <div class="em">
+                <button class="email"><img  src="email.png" alt="#" width="10%"></button>
+               <button class="emo"><p>Floralife@gmail.com</p></button>
+            </div>
+           
+        </nav>
+        
+    </footer>
 </body>
 </html>
